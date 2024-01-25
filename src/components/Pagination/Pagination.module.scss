@@ -1,0 +1,18 @@
+.customPrevLink {
+  color: white;
+  text-decoration: none;
+}
+.customNextLink {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .next,
+  .prev {
+    display: none;
+  }
+  .paginate {
+    font-size: 14px;
+  }
+}
